@@ -1,11 +1,12 @@
 
-import java.util.Comparator;
+
 import java.util.PriorityQueue;
 
 public class Prim{
 	
 public void MST_Prim(Graph g) {
 	EdgeComparator comparator = new EdgeComparator();	
+//creating comparator
 	Vertex source=g.verts.get(1);
     source.seen=true;
 	int wmst=0;
