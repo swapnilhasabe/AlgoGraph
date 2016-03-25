@@ -80,7 +80,8 @@ public class Problem3 {
 		}	
 				
 		}	
-		// for finding max distance from last element in queue and source
+		/* for finding max distance from last element in queue and source*/
+		
 		while(u!=source){
 			u=u.parent;
 			count++;
