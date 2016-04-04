@@ -177,6 +177,7 @@ p6.testEulerian(graph);
 Prim p=new Prim();
 p.MST_Prim(graph);
 */
+// you uncomment to run any method as you want
 Problem7 p7=new Problem7();
 p7.testCycle(graph);
 
